@@ -1,16 +1,8 @@
 html
 {
-	font: 16px/22px "Helvetica Neue",Helvetica,Arial,sans-serif;
 	width: 100%;
 	height: 100%;
-	background: rgb(238,238,238); /* Old browsers */
-	background: -moz-radial-gradient(center, ellipse cover, rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6+ */
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1))); /* Chrome,Safari4+ */
-	background: -webkit-radial-gradient(center, ellipse cover, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-radial-gradient(center, ellipse cover, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Opera 12+ */
-	background: -ms-radial-gradient(center, ellipse cover, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* IE10+ */
-	background: radial-gradient(ellipse at center, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	background: white;
 }
 
 body
@@ -22,62 +14,37 @@ body
 	margin:0;
 }
 
-p
+.name
 {
-	line-height: 24px;
-	font-size:16px;
+	position: absolute;
+	font-size:2em;
+	top:10%;
+	left:10%;
+	right:10%;
+	height:10%;
 }
 
-#logoContainer
-{
-	position: absolute; 
-	top:10px;
-	left:10px;
-}
 
-.logo
+.contactIcon
 {
-	width:20em;
-}
-
-#contentContainer
-{
+	width:64px;
 	position:absolute;
-	top:10px;
-	left:22em;
-	right:35%;
-	bottom:10px;
+	top:30%;
+	left:25%;
 }
 
-.bg
+.blogIcon
 {
-	display: block;
-	margin: auto;
-	height:100%;
-	box-shadow: 0px 0px 4px 4px #555555;
-}
-
-#iconContainer
-{
+	width:64px;
 	position:absolute;
-	top: 75px;
-	left:1.5em;
-	width: 10em;
-	height:40em;
+	top:30%;
+	left:50%;
 }
 
-.icon
+.labsIcon
 {
-	width:10em;
-	height:10em;
-	float:left;
-}
-
-.icon img
-{
-	width:5em;
-	height:5em;
-	display:block;
-	margin:auto;
-	margin-top:2.5em;
+	width:64px;
+	position:absolute;
+	top:30%;
+	left:75%;
 }
