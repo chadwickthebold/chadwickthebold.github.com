@@ -20,17 +20,17 @@ body
 	font-size:2em;
 	top:10%;
 	left:10%;
-	right:10%;
 	height:10%;
 }
 
 
 .contactIcon
 {
-	width:64px;
+	height:32px;
+	padding: 15px 0px 0px 0px;
 	position:absolute;
-	top:30%;
-	left:25%;
+	top:20%;
+	left:10%;
 }
 
 .blogIcon
@@ -45,6 +45,6 @@ body
 {
 	width:64px;
 	position:absolute;
-	top:30%;
-	left:75%;
+	top:20%;
+	left:15%;
 }
