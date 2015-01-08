@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "Anke";
+  src: url("../fonts/Anke/Anke.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Spartan";
+  src: url("../fonts/league-spartan/LeagueSpartan-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "ClearSans";
+  src: url("../fonts/clearsans/TTF/ClearSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Aleo";
+  src: url("../fonts/aleo/Aleo-Regular.otf") format("opentype");
+}
+.tyc {
+  font-family: 'ClearSans', sans-serif;
+  font-size: 13px;
+  background-color: #E3E3E3;
+}
+.tyc .disabled {
+  color: #333333;
+  text-decoration: underline;
+}
+.tyc .tyc-header {
+  font-family: "Anke";
+  position: fixed;
+  background-color: #F7F7F7;
+  width: 100%;
+}
+.tyc .tyc-header .tyc-logo {
+  height: 3.85rem;
+  margin: 0.5rem;
+}
+.tyc .tyc-header .tyc-title {
+  vertical-align: top;
+  margin: 1.4rem 0;
+  font-size: 2rem;
+  display: inline-block;
+}
+.tyc .tyc-header .tyc-nav {
+  display: none;
+  position: absolute;
+  bottom: 1rem;
+  right: 0.5rem;
+}
+.tyc .tyc-header .tyc-nav ul.tyc-nav-list {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.tyc .tyc-header .tyc-nav ul.tyc-nav-list li {
+  display: inline-block;
+}
+.tyc .tyc-header .separator {
+  height: 1rem;
+  background-color: #333333;
+}
+.tyc .tyc-wrapper {
+  padding: 7rem 0 0 0;
+  background-color: #F7F7F7;
+  border: 1px solid #CCCCCC;
+}
+@media screen and (min-width: 35.5em) {
+  .tyc .tyc-wrapper {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 48em) {
+  .tyc .tyc-wrapper {
+    margin: 0 10%;
+  }
+}
+.tyc .tyc-wrapper .tyc-section {
+  padding: 0.5rem;
+}
+.tyc .tyc-wrapper .tyc-section .tyc-section-heading {
+  font-family: 'Anke', sans-serif;
+}
+.tyc .tyc-wrapper .tyc-section .tyc-intro {
+  font-size: 120%;
+  text-align: center;
+}
+.tyc .tyc-wrapper .tyc-section .tyc-picLink {
+  display: none;
+}
+.tyc .tyc-wrapper .tyc-section ul.tyc-links {
+  padding: 0;
+}
+.tyc .tyc-wrapper .tyc-section ul.tyc-links li {
+  text-align: center;
+}
+.tyc .tyc-wrapper .tyc-section ul.tyc-links li .tyc-link-wrapper {
+  padding: 0.25rem;
+}
+.tyc .tyc-wrapper .tyc-section ul.tyc-links li .tyc-link-wrapper a {
+  display: block;
+  padding: 1rem;
+  background-color: #666666;
+  color: #E3E3E3;
+}
+.tyc .tyc-wrapper .tyc-section ul.tyc-links li .tyc-link-wrapper a:hover {
+  background-color: #999999;
+}
+.tyc .tyc-wrapper .tyc-section ul.tyc-experience {
+  padding: 0;
+}
+.tyc .tyc-wrapper .tyc-section ul.tyc-experience li {
+  text-align: center;
+}
+.tyc .tyc-footer {
+  padding: 0.5rem;
+  font-size: 80%;
+  text-align: right;
+}
