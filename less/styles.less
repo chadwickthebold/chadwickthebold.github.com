@@ -4,6 +4,8 @@
 @mqLg: ~"screen and (min-width: 64em)";
 @mqXl: ~"screen and (min-width: 80em)";
 
+@background-color: #F7F7F7;
+
 @font-face {
 		font-family: "Anke";
 		src: url("../fonts/Anke/Anke.ttf") format("truetype");
@@ -27,7 +29,7 @@
 .tyc {
 	font-family: 'ClearSans',sans-serif;
 	font-size: 13px;
-	background-color: #E3E3E3;
+	background-color: @background-color;
 
 	.disabled {
 		color: #333333;
@@ -37,7 +39,7 @@
 	.tyc-header {
 		font-family: "Anke";
 		position: fixed;
-		background-color: #F7F7F7;
+		background-color: @background-color;
 		width: 100%;
 
 		.tyc-logo {
@@ -47,7 +49,7 @@
 
 		.tyc-title {
 			vertical-align: top;
-			margin: 1.4rem 0;
+			margin: 1.5rem 0;
 			font-size: 2rem;
 			display: inline-block;
 		}
@@ -78,7 +80,6 @@
 	.tyc-wrapper {
 		padding: 7rem 0 0 0;
 		background-color: #F7F7F7;
-		border: 1px solid #CCCCCC;
 
 		@media @mqSm {
 			margin: 0;
@@ -89,7 +90,7 @@
 		}
 
 		.tyc-section {
-			padding: 0.5rem;
+			padding: 1rem;
 
 			.tyc-section-heading {
 				font-family: 'Anke',sans-serif;
