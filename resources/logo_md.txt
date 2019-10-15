@@ -1,75 +1,5 @@
-<!doctype html>
-<html lang="en-US">
-<head>
-<meta charset="utf-8">
-<title>Tyler Chadwick :: Engineering Leader</title>
-<meta name="description" content="The personal website for Tyler Chadwick">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
-</head>
-<body>
-<pre style="white-space: pre-wrap; overflow-wrap: break-word">
-rev-002-01
-
-Tyler Chadwick
-Engineering Leader & Software Developer 
-
-Revision 14 October 2019
-
-
-
-EXPERIENCE
-
-
-Engineering Manager                                         April 2018 - Present
-Condé Nast
-User Utility Squad
-
-Interim Engineering Manager                            October 2017 - April 2018
-Condé Nast
-Condé Nast Traveler
-
-Software Engineer II                                    July 2016 - October 2017
-Condé Nast
-Vanity Fair
-
-Independent Contractor                                 December 2016 - July 2016
-Ando Food
-CariClub
-
-Software Engineer                                       May 2015 - December 2016
-Lover.ly
-
-Software Engineer                                        October 2014 - May 2015
-PeopleFluent
-
-Associate Software Engineer                             June 2013 - October 2014
-PeopleFluent
-
-
-
-WRITING
-
-
-Content Categorization at Condé Nast:
-From Flat Fields to Structured Relationships
-<a href="https://technology.condenast.com/story/content-categorization-at-conde-nast">https://technology.condenast.com/story/content-categorization-at-conde-nast</a>
-
-
-
-
-
-
-</pre>
-<pre>
-                                                ///*                                                
-                                                ///*                                               
+                                               //*                                                
+                                               ////*                                               
                                                                                                    
                                                  /                                                 
                                                  /                                                 
@@ -106,6 +36,3 @@ From Flat Fields to Structured Relationships
                                              /////////                                             
                                                /////                                               
                                                 //                                                 
-</pre>
-</body>
-</html>
